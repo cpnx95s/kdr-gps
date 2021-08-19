@@ -16338,6 +16338,6 @@ readers do not read off random characters that represent icons */
 } */
 
 .anyClass {
-  height:100vh;
+  height:80vh;
   overflow-y: scroll;
 }
