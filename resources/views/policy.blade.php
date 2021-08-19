@@ -8,7 +8,7 @@
             <div class="card shadow-sm">
                 <div class="card-body">
                     {!! $policy !!}
-                </div>
+                    
             </div>
         </div>
     </div>
