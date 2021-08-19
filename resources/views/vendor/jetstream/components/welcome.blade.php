@@ -27,16 +27,13 @@
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link active bg-success text-light font-weight-bold" data-toggle="tab"
-                                        href="#home">ณ ปัจจุบัน <span class="badge badge-warning">99</span></a>
+                                    <a class="nav-link active bg-success text-light font-weight-bold" data-toggle="tab" href="#home">ณ ปัจจุบัน <span class="badge badge-warning">99</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link bg-warning text-dark font-weight-bold" data-toggle="tab"
-                                        href="#menu1">ข้อมูลย้อนหลัง</a>
+                                    <a class="nav-link bg-warning text-dark font-weight-bold" data-toggle="tab" href="#menu1">ข้อมูลย้อนหลัง</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link bg-danger text-light font-weight-bold" data-toggle="tab"
-                                        href="#menu2">สรุปสถานะ</a>
+                                    <a class="nav-link bg-danger text-light font-weight-bold" data-toggle="tab" href="#menu2">สรุปสถานะ</a>
                                 </li>
                             </ul>
 
@@ -48,13 +45,25 @@
 
                                 <div id="home" class="anyClass container tab-pane active"><br>
 
+                                    <form>
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="text" class="form-control" id="Search" placeholder="Search" name="Search">
+                                            </div>
+                                            <div class="col">
+                                                <select class="form-control" id="truckgroupe">
+                                                    <option>All</option>
+                                                    <option>KDR</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
 
                                     <div class="card flex-row flex-wrap my-3">
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546"
-                                                    src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -70,8 +79,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546"
-                                                    src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -87,8 +95,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546"
-                                                    src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -104,8 +111,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546"
-                                                    src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -121,8 +127,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546"
-                                                    src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -138,8 +143,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546"
-                                                    src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -189,7 +193,6 @@
                         #map {
                             height: 100%;
                         }
-
                     </style>
 
                     <script type="text/javascript" src="https://api.longdo.com/map/?key=0e2384cd542e68a77e96b5df4516be86"></script>
