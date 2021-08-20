@@ -1,1 +1,1 @@
-<img src="https://i.imgur.com/ZXLkWWj.png" alt="" style="width: 128px;">
+<img src="{{ asset('asset/images/logo.png') }}" alt="" style="width: 128px;">

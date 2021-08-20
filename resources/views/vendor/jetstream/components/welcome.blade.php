@@ -63,7 +63,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/longtime.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -79,7 +79,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/longtime.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -95,7 +95,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/stop.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -111,7 +111,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/loss.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -127,7 +127,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/idles.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -143,7 +143,7 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="https://tttwli.com/images/longtime.png">
+                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/normal.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
