@@ -27,13 +27,16 @@
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link active bg-success text-light font-weight-bold" data-toggle="tab" href="#home">ณ ปัจจุบัน <span class="badge badge-warning">99</span></a>
+                                    <a class="nav-link active bg-success text-light font-weight-bold" data-toggle="tab"
+                                        href="#home">ณ ปัจจุบัน <span class="badge badge-warning">99</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link bg-warning text-dark font-weight-bold" data-toggle="tab" href="#menu1">ข้อมูลย้อนหลัง</a>
+                                    <a class="nav-link bg-warning text-dark font-weight-bold" data-toggle="tab"
+                                        href="#menu1">ข้อมูลย้อนหลัง</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link bg-danger text-light font-weight-bold" data-toggle="tab" href="#menu2">สรุปสถานะ</a>
+                                    <a class="nav-link bg-danger text-light font-weight-bold" data-toggle="tab"
+                                        href="#menu2">สรุปสถานะ</a>
                                 </li>
                             </ul>
 
@@ -48,7 +51,8 @@
                                     <form>
                                         <div class="row">
                                             <div class="col">
-                                                <input type="text" class="form-control" id="Search" placeholder="Search" name="Search">
+                                                <input type="text" class="form-control" id="Search" placeholder="Search"
+                                                    name="Search">
                                             </div>
                                             <div class="col">
                                                 <select class="form-control" id="truckgroupe">
@@ -63,7 +67,8 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/longtime.png') }}">
+                                                <img id="I_8966051809426332546"
+                                                    src="{{ asset('asset/images/longtime.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -79,7 +84,8 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/longtime.png') }}">
+                                                <img id="I_8966051809426332546"
+                                                    src="{{ asset('asset/images/longtime.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -95,7 +101,8 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/stop.png') }}">
+                                                <img id="I_8966051809426332546"
+                                                    src="{{ asset('asset/images/stop.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -111,7 +118,8 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/loss.png') }}">
+                                                <img id="I_8966051809426332546"
+                                                    src="{{ asset('asset/images/loss.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -127,7 +135,8 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/idles.png') }}">
+                                                <img id="I_8966051809426332546"
+                                                    src="{{ asset('asset/images/idles.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -143,7 +152,8 @@
                                         <div class="card-header border-0 d-flex align-items-center">
                                             <div class="info-box-icon">
                                                 <div id="V_8966051809426332546">2ฒศ-7715</div>
-                                                <img id="I_8966051809426332546" src="{{ asset('asset/images/normal.png') }}">
+                                                <img id="I_8966051809426332546"
+                                                    src="{{ asset('asset/images/normal.png') }}">
                                                 <div> <span id="SP_8966051809426332546">0</span> km./h</div>
                                             </div>
                                         </div>
@@ -181,31 +191,57 @@
 
                 <div class="col-md-8 pl-3 ">
                     <style type="text/css">
-                        html {
-                            height: 100%;
+                        html{
+                          height:100%;
                         }
-
-                        body {
-                            margin: 0px;
-                            height: 100%;
+                        body{
+                          margin:0px;
+                          height:100%;
                         }
-
                         #map {
-                            height: 100%;
+                          height: 100%;
                         }
-                    </style>
-
+                        #result {
+                          position: absolute;
+                          top: 0;
+                          bottom: 0;
+                          right: 0;
+                          width: 1px;
+                          height: 80%;
+                          margin: auto;
+                          border: 4px solid #dddddd;
+                          background: #ffffff;
+                          overflow: auto;
+                          z-index: 2;
+                      }
+                      </style>
                     <script type="text/javascript" src="https://api.longdo.com/map/?key=0e2384cd542e68a77e96b5df4516be86"></script>
                     <script>
+                        var map;
+
                         function init() {
-                            var map = new longdo.Map({
+                            map = new longdo.Map({
                                 placeholder: document.getElementById('map')
                             });
+                            map.Route.placeholder(document.getElementById('result'));
+                            map.Route.add(new longdo.Marker({
+                                lon: 100.538316,
+                                lat: 13.764953
+                            }, {
+                                title: 'Victory monument',
+                                detail: 'I\'m here'
+                            }));
+                            map.Route.add({
+                                lon: 100,
+                                lat: 15,
+                            });
+                            map.Route.search();
                         }
                     </script>
 
                     <body onload="init();">
                         <div id="map"></div>
+                        <div id="result"></div>
                     </body>
 
                 </div>
