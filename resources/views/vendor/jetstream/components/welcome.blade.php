@@ -173,10 +173,13 @@
 
                                 <div id="menu1" class="container tab-pane fade"><br>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <h3>ข้อมูลย้อนหลัง</h3>
                                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                                         aliquip ex ea commodo consequat.</p>
 =======
+=======
+>>>>>>> parent of ead3cd1 (แก้ความสูงแถบ ข้อมูลย้อนหลัง และ แถบสรุปสถานะ)
                                     <div id="his_set"
                                         style="border:solid 1px lightgray; border-radius:3px;padding:10px;">
                                         <label id="lbl_mi_plate">ทะเบียน</label>
