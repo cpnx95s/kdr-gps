@@ -11,8 +11,14 @@
         <div class="collapse navbar-collapse h5" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
-                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                <x-jet-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
                     {{ __('Home') }}
+                </x-jet-nav-link>
+                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                    {{ __('dashboard') }}
+                </x-jet-nav-link>
+                <x-jet-nav-link href="{{ route('report') }}" :active="request()->routeIs('report')">
+                    {{ __('รายงาน') }}
                 </x-jet-nav-link>
             </ul>
 
