@@ -171,7 +171,7 @@
 
 
 
-                                <div id="menu1" class="container tab-pane fade"><br>
+                                <div id="menu1" class="anyClass container tab-pane fade"><br>
                                     <div id="his_set"
                                         style="border:solid 1px lightgray; border-radius:3px;padding:10px;">
                                         <label id="lbl_mi_plate">ทะเบียน</label>
@@ -499,7 +499,7 @@
 
 
 
-                                <div id="menu2" class="container tab-pane fade"><br>
+                                <div id="menu2" class="anyClass container tab-pane fade"><br>
                                     <h3>สรุปสถานะ</h3>
                                     <div id="pie" style="font-size: 12px; " class="bg-light p-2 ui-draggable ui-draggable-handle">
                                         <i id="pie_close" style="font-size:14px; cursor:pointer;" class="fa fa-close"></i>
