@@ -191,34 +191,37 @@
 
                 <div class="col-md-8 pl-3 ">
                     <style type="text/css">
-                        html{
-                          height:100%;
+                        html {
+                            height: 100%;
                         }
-                        body{
-                          margin:0px;
-                          height:100%;
+
+                        body {
+                            margin: 0px;
+                            height: 100%;
                         }
+
                         #map {
-                          height: 100%;
+                            height: 100%;
                         }
+
                         #result {
-                          position: absolute;
-                          top: 0;
-                          bottom: 0;
-                          right: 0;
-                          width: 1px;
-                          height: 80%;
-                          margin: auto;
-                          border: 4px solid #dddddd;
-                          background: #ffffff;
-                          overflow: auto;
-                          z-index: 2;
-                      }
-                      </style>
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            right: 0;
+                            width: 1px;
+                            height: 80%;
+                            margin: auto;
+                            border: 4px solid #dddddd;
+                            background: #ffffff;
+                            overflow: auto;
+                            z-index: 2;
+                        }
+
+                    </style>
+
                     <script type="text/javascript" src="https://api.longdo.com/map/?key=0e2384cd542e68a77e96b5df4516be86"></script>
                     <script>
-                        var map;
-
                         function init() {
                             map = new longdo.Map({
                                 placeholder: document.getElementById('map')
@@ -233,7 +236,7 @@
                             }));
                             map.Route.add({
                                 lon: 100,
-                                lat: 15,
+                                lat: 15
                             });
                             map.Route.search();
                         }
