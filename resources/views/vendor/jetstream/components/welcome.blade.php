@@ -171,8 +171,15 @@
 
 
 
-                                <div id="menu1" class="anyClass container tab-pane fade"><br>
+                                <div id="menu1" class="container tab-pane fade"><br>
+<<<<<<< HEAD
+<<<<<<< HEAD
                                     <h3>ข้อมูลย้อนหลัง</h3>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                        aliquip ex ea commodo consequat.</p>
+=======
+=======
+>>>>>>> parent of ead3cd1 (แก้ความสูงแถบ ข้อมูลย้อนหลัง และ แถบสรุปสถานะ)
                                     <div id="his_set"
                                         style="border:solid 1px lightgray; border-radius:3px;padding:10px;">
                                         <label id="lbl_mi_plate">ทะเบียน</label>
@@ -496,55 +503,15 @@
                                         <div style="margin-top:10px; display:none; text-align:center;"
                                             class="alert alert-danger"></div>
                                     </div>
-                                    
+>>>>>>> parent of ead3cd1 (แก้ความสูงแถบ ข้อมูลย้อนหลัง และ แถบสรุปสถานะ)
                                 </div>
 
 
 
-                                <div id="menu2" class="anyClass container tab-pane fade"><br>
+                                <div id="menu2" class="container tab-pane fade"><br>
                                     <h3>สรุปสถานะ</h3>
-                                    <div id="pie" style="font-size: 12px; " class="bg-light p-2 ui-draggable ui-draggable-handle">
-                                        <i id="pie_close" style="font-size:14px; cursor:pointer;" class="fa fa-close"></i>
-                                        <table>
-                                            <tbody><tr>
-                                                <td><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div><canvas width="150" height="150" id="pie_canv" style="display: block;" class="chartjs-render-monitor"></canvas></td>
-                                                <td>
-                                                    <div class="p-2">
-                                                        <table>
-                                                            <tbody><tr>
-                                                                <td><div style="border:1px solid #ccc;padding:1px;"><div style="background-color:#969595;" class="border border-secondary p-1"></div></div></td>
-                                                                <td><span id="pie_1" class="pie_link"><span id="txt_mi_stop">จอดดับเครื่อง</span><span id="pie_stop">10</span><span id="txt_mi_car1"> คัน</span></span></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><div style="border:1px solid #ccc;padding:1px;"><div style="background-color:#ffc107;" class="border border-secondary p-1"></div></div></td>
-                                                                <td><span id="pie_2" class="pie_link"><span id="txt_mi_idle">จอดไม่ดับเครื่อง</span><span id="pie_idle">8</span><span id="txt_mi_car2"> คัน</span></span></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><div style="border:1px solid #ccc;padding:1px;"><div style="background-color:green;" class="border border-secondary p-1"></div></div></td>
-                                                                <td><span id="pie_3" class="pie_link"><span id="txt_mi_normal">วิ่งปกติ</span><span id="pie_normal">4</span><span id="txt_mi_car3"> คัน</span></span></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><div style="border:1px solid #ccc;padding:1px;"><div style="background-color:deeppink;" class="border border-secondary p-1"></div></div></td>
-                                                                <td><span id="pie_4" class="pie_link"><span id="txt_mi_overspeed">ความเร็วเกิน</span><span id="pie_overspeed">0</span><span id="txt_mi_car4"> คัน</span></span></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><div style="border:1px solid #ccc;padding:1px;"><div style="background-color:blue;" class="border border-secondary p-1"></div></div></td>
-                                                                <td><span id="pie_5" class="pie_link"><span id="txt_mi_BlackBox">ไฟกล่องดำ</span><span id="pie_boxpower">1</span><span id="txt_mi_car5"> คัน</span></span></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><div style="border:1px solid #ccc;padding:1px;"><div style="background-color:red;" class="border border-secondary p-1"></div></div></td>
-                                                                <td><span id="pie_6" class="pie_link"><span id="txt_mi_Offline">ไม่อัพเดท</span><span id="pie_lose">14</span><span id="txt_mi_car6"> คัน</span></span></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><div style="border:1px solid #ccc;padding:1px;"><div style="background-color:pink;" class="border border-secondary p-1"></div></div></td>
-                                                                <td><span id="pie_7" class="pie_link"><span id="txt_mi_Longtime">จอดนานเกินชั่วโมง</span><span id="pie_longtime">52</span> <span id="txt_mi_car7"> คัน</span></span></td>
-                                                            </tr>
-                                                        </tbody></table>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                        </tbody></table>
-                                    </div>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque laudantium, totam rem aperiam.</p>
                                 </div>
                             </div>
                         </div>
