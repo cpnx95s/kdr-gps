@@ -4,6 +4,8 @@
             {{ __('Home') }}
         </h2>
     </x-slot>
-
+{!! $chart->container() !!}
+                                                    
+ {!! $chart->script() !!}
     <x-jet-welcome />
 </x-app-layout>
