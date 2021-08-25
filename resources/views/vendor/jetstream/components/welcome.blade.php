@@ -1,3 +1,9 @@
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold h4 text-gray-800 leading-tight">
+            {{ __('Home') }}
+        </h2>
+    </x-slot>
 <div class="row justify-content-center my-3">
     <div class="col-md-12">
         <div class="card shadow bg-light">
@@ -502,14 +508,19 @@
                                 </div>
 
 
+                             
 
                                 <div id="menu2" class="anyClass container tab-pane fade"><br>
                                 <div id="pie" style="font-size: 12px; " class="bg-light p-2 ui-draggable ui-draggable-handle">
                                         <i id="pie_close" style="font-size:14px; cursor:pointer;" class="fa fa-close"></i>
                                         <table>
+                                        {!! $chart->container() !!}
+                                                    
+                                                    {!! $chart->script() !!}
                                             <tbody><tr>
                                                 <td><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div><canvas width="150" height="150" id="pie_canv" style="display: block;" class="chartjs-render-monitor"></canvas></td>
                                                 <td>
+                                                    
                                                     <div class="p-2">
                                                         <table>
                                                             <tbody><tr>
@@ -616,3 +627,4 @@
         </div>
     </div>
 </div>
+</x-app-layout>
