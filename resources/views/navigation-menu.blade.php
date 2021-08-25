@@ -15,10 +15,10 @@
                     {{ __('Home') }}
                 </x-jet-nav-link>
                 <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                    {{ __('dashboard') }}
+                    {{ __('Dashboard') }}
                 </x-jet-nav-link>
                 <x-jet-nav-link href="{{ route('report') }}" :active="request()->routeIs('report')">
-                    {{ __('รายงาน') }}
+                    {{ __('Report') }}
                 </x-jet-nav-link>
             </ul>
 
