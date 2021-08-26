@@ -22,8 +22,7 @@ class HomeController extends Controller
         ]);
 
       
-
-       return view('vendor.jetstream.components.welcome',compact('chart'));
+       return view('home.index',compact('chart'));
          
       }
       
