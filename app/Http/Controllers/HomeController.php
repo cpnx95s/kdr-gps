@@ -22,7 +22,7 @@ class HomeController extends Controller
         ]);
 
       
-       return view('home.index',compact('chart'));
+       return view('webpage.home.index',compact('chart'));
          
       }
       

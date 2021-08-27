@@ -4,5 +4,5 @@
             {{ __('report') }}
         </h2>
     </x-slot>
-    หน้า index.blade.php
+    หน้า index.blade.phpasdsd
 </x-app-layout>
