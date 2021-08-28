@@ -613,24 +613,82 @@
 
                         <script type="text/javascript" src="https://api.longdo.com/map/?key=0e2384cd542e68a77e96b5df4516be86"></script>
                         <script>
-                            function init() {
-                                map = new longdo.Map({
-                                    placeholder: document.getElementById('map')
-                                });
-                                map.Route.placeholder(document.getElementById('result'));
-                                map.Route.add(new longdo.Marker({
-                                    lon: 100.538316,
-                                    lat: 13.764953
-                                }, {
-                                    title: 'Victory monument',
-                                    detail: 'I\'m here'
-                                }));
-                                map.Route.add({
-                                    lon: 100,
-                                    lat: 15
-                                });
-                                map.Route.search();
-                            }
+
+
+                        var marker1 = new longdo.Marker({
+                            lon: 101.2,
+                            lat: 12.8
+                        }, {
+                            title: 'Marker',
+                            icon: {
+                                html:'<img src="{{ asset('asset/images/stop.png') }}">',
+                                offset: {
+                                    x: 12,
+                                    y: 45
+                                }
+                            },
+                            detail: 'Drag me',
+                            visibleRange: {
+                                min: 1,
+                                max: 20
+                            },
+                            draggable: true,
+                            weight: longdo.OverlayWeight.Top,
+                        });
+
+                        // 2
+                        var marker30 = new longdo.Marker({
+                            lon: 100.56,
+                            lat: 13.74
+                        }, {
+                            title: 'Marker',
+                            icon: {
+                                html:'<img src="{{ asset('asset/images/stop.png') }}">',
+                                offset: {
+                                    x: 12,
+                                    y: 45
+                                }
+                            },
+                            detail: 'Drag me',
+                            visibleRange: {
+                                min: 1,
+                                max: 20
+                            },
+                            draggable: true,
+                            weight: longdo.OverlayWeight.Top,
+                        });
+
+                        // 3
+                        var marker31 = new longdo.Marker({
+                            lon: 101.51,
+                            lat: 13.65
+                        }, {
+                            title: 'Marker',
+                            icon: {
+                                html:'<img src="{{ asset('asset/images/stop.png') }}">',
+                                offset: {
+                                    x: 12,
+                                    y: 45
+                                }
+                            },
+                            detail: 'Drag me',
+                            visibleRange: {
+                                min: 1,
+                                max: 20
+                            },
+                            draggable: true,
+                            weight: longdo.OverlayWeight.Top,
+                        });
+
+                        function init() {
+                            var map = new longdo.Map({
+                                placeholder: document.getElementById('map')
+                            });
+                            // map.Overlays.add(marker);
+                            map.Overlays.add(marker1);
+                            map.Overlays.add(marker30);
+                            map.Overlays.add(marker31);
+                        }
                         </script>
 
                         <body onload="init();">
