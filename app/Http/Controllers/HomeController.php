@@ -15,7 +15,7 @@ class HomeController extends Controller
     
 
         $chart->labels(['จอดดับเครื่อง','จอดไม่ดับเครื่อง','วิ่งปกติ','	ความเร็วเกิน','ไฟกล่องดำ','ไม่อัพเดท','จอดนานเกินชั่วโมง']);
-
+        $chart->displayAxes(false);
         $chart->dataset('aaa','pie',[10,8,4,0,1,14,52])->options([
           'backgroundColor' => ['gray','yellow','green','pink','blue','red','lightpink'],
         
