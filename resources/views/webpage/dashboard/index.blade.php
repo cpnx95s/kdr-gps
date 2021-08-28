@@ -39,7 +39,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">10อันดับความเร็วเกิน</h5>
+                        <h5 class="card-title text-center">10 อันดับความเร็วเกิน</h5>
                         <p class="card-text">
                         {!! $chart2->container() !!}
                         {!! $chart2->script() !!}
@@ -69,7 +69,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">สถานะการใช้รถ (คัน)</h5>
+                        <h5 class="card-title text-center"> 10 อันดับรถจอดนาน</h5>
                         <p class="card-text">
                         {!! $chart4->container() !!}
                         {!! $chart4->script() !!}

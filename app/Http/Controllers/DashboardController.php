@@ -31,7 +31,7 @@ class DashboardController extends Controller
 
         $chart4 = new Homechart;
         $chart4->labels(['ทะเบียน1','ทะเบียน2','ทะเบียน3','ทะเบียน4','ทะเบียน5','ทะเบียน6','ทะเบียน7','ทะเบียน8','ทะเบียน9','ทะเบียน10']);
-        $chart4->dataset('รถจอดนาน(เวลา) 10 อันดับ','bar',[01.48,01.15,0.5,0.25,0.12,0,0,0,0,0])->options([
+        $chart4->dataset('เวลา','bar',[01.48,01.15,0.5,0.25,0.12,0,0,0,0,0])->options([
           'backgroundColor' => ['yellow','yellow','yellow',],  
         ]);
 
