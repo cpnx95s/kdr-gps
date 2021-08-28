@@ -27,7 +27,8 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">สถานะการใช้รถ (คัน)</h5>
                         <p class="card-text">
-                            Card content
+                        {!! $chart->container() !!}
+                        {!! $chart->script() !!}
                         </p>
                     </div>
                     <!-- <div class="card-footer">
@@ -38,9 +39,10 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">สถานะการใช้รถ (คัน)</h5>
+                        <h5 class="card-title text-center">10อันดับความเร็วเกิน</h5>
                         <p class="card-text">
-                            Card content
+                        {!! $chart2->container() !!}
+                        {!! $chart2->script() !!}
                         </p>
                     </div>
                     <!-- <div class="card-footer">
@@ -53,9 +55,10 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-center">สถานะการใช้รถ (คัน)</h5>
+                        <h5 class="card-title text-center">สถานะการใช้ความเร็ว (คัน)</h5>
                         <p class="card-text">
-                            Card content
+                        {!! $chart3->container() !!}
+                        {!! $chart3->script() !!}
                         </p>
                     </div>
                     <!-- <div class="card-footer">
@@ -68,7 +71,8 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">สถานะการใช้รถ (คัน)</h5>
                         <p class="card-text">
-                            Card content
+                        {!! $chart4->container() !!}
+                        {!! $chart4->script() !!}
                         </p>
                     </div>
                     <!-- <div class="card-footer">
