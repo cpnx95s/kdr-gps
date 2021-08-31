@@ -8,22 +8,29 @@
 
     <div class="row anybt">
         <div class="col-md-4">
-            <div class="btn shadow p-4 mb-4 bg-white w-100">รายงานติดตามรถ</div>
+
+            <div  class="btn shadow p-4 mb-4 bg-white w-100" >รายงานติดตามรถ</div>
+            <a href ="{{url('/report/vtreport')}}">รายงานติดตามรถ</a>
         </div>
         <div class="col-md-4">
             <div class="btn shadow p-4 mb-4 bg-white w-100">รายงานสถานี-สถานี</div>
+            <a href ="{{url('/report/streport')}}">รายงานสถานี-สถานี</a>
         </div>
         <div class="col-md-4">
             <div class=" btn shadow p-4 mb-4 bg-white w-100">การรูดบัตร</div>
+            <a href ="{{url('/report/swcard')}}">การรูดบัตร</a>
         </div>
         <div class="col-md-4">
             <div class="btn shadow p-4 mb-4 bg-white w-100">การแจ้งเตือน</div>
+            <a href ="{{url('/report/remind')}}">การแจ้งเตือน</a>
         </div>
         <div class="col-md-4">
             <div class="btn shadow p-4 mb-4 bg-white w-100">สรุปกิจกรรมประจำวัน(ตามช่วงเวลา)</div>
+            <a href ="{{url('/report/conclude')}}">สรุปกิจกรรมประจำวัน(ตามช่วงเวลา)</a>
         </div>
         <div class="col-md-4">
             <div class="btn shadow p-4 mb-4 bg-white w-100">กราฟน้ำมัน-ความเร็ว</div>
+            <a href ="{{url('/report/oilspgraph')}}">กราฟน้ำมัน-ความเร็ว</a>
         </div>
     </div>
     {{-- <div class="" style="min-height: calc(100vh - 150px);">

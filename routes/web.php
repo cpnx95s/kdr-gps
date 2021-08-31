@@ -21,9 +21,19 @@ Route::get('/', function () {
 });
 
 Route::get('/home',[HomeController::class,'index'])->name('home');
+
 Route::get('/dashboard',[DashboardController::class,'index'])->name('dashboard');
 Route::get('/report',[ReportController::class,'index'])->name('report');
 
+Route::prefix('/report')->group(function () {
+    Route::get('',[ReportController::class,'index'])->name('report');
+    Route::get('/vtreport',[ReportController::class,'vtreport']);
+    Route::get('/streport',[ReportController::class,'streport']);
+    Route::get('/swcard',[ReportController::class,'swcard']);
+    Route::get('/remind',[ReportController::class,'remind']);
+    Route::get('/conclude',[ReportController::class,'conclude']);
+    Route::get('/oilspgraph',[ReportController::class,'oilspgraph']);
+});
 
 
 
