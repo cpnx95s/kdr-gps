@@ -6,7 +6,7 @@
     </x-slot>
     <!-- หน้า oilspgraph.blade.php -->
     <div class="container-fluid">
-
+        <br>
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-center text-primary">
@@ -14,30 +14,29 @@
                 </h2>
             </div>
         </div>
-        <pre></pre>
-        <pre></pre>
-        <pre></pre>
-        <pre></pre>
+        <br>
+        <br>
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col">
-                <h6> ระหว่างวันที่
-                    <input type="time" class="from-control" id="fromDate" name="fromDate" />
-                    <input type="date" class="from-control" id="fromDate" name="fromDate" required />
-                    <input type="date" class="from-control" id="fromDate" name="fromDate" required />
-                    <input type="time" class="from-control" id="fromDate" name="fromDate" />
-                    <button type="button" class="btn btn-success">ยืนยัน</button>
+                <form action="">
+                    <h6> ระหว่างวันที่
+                        <input type="time" class="from-control" id="fromDate" name="fromDate" />
+                        <input type="date" class="from-control" id="fromDate" name="fromDate" required />
+                        <input type="date" class="from-control" id="fromDate" name="fromDate" required />
+                        <input type="time" class="from-control" id="fromDate" name="fromDate" />
+                        <button type="button" class="btn btn-success">ยืนยัน</button>
+                </form>
             </div>
             </h6>
             <div>
             </div>
         </div>
-        <pre></pre>
-        <pre></pre>
-
+        <br>
+        <br>
         <div class="row">
-        {!! $chart->container() !!}
-         {!! $chart->script() !!}
+            {!! $chart->container() !!}
+            {!! $chart->script() !!}
         </div>
     </div>
 </x-app-layout>
