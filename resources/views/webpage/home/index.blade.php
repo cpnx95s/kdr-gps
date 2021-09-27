@@ -1,3 +1,27 @@
+
+{{-- <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> --}}
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+axios.get('http://openapi.18gps.net/GetDateServices.asmx/loginSystem?LoginName=monitor&LoginPassword=123456&LoginType=ENTERPRISE&language=cn&ISMD5=0&timeZone=+08&apply=APP&loginUrl=http://vipapi.18gps.net/')
+.then((resp1) => {
+    co1 = resp1;
+    gow = co1.data.mds;
+
+const pp = 'http://api.18gps.net//GetDateServices.asmx/GetDate?method=getDeviceList&mds='
+axios.get(pp + gow)
+.then((resp12) => {
+    co12 = resp12;
+    go2 = co12.data.rows;
+    console.log(go2)
+})
+.catch((err) => {
+    console.log(err)
+})
+});
+</script>
+
+
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold h4 text-gray-800 leading-tight">
@@ -46,7 +70,7 @@
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <script>
-                                        new SimpleBar(document.querySelector('div'));
+                                        // new SimpleBar(document.querySelector('div'));
                                     </script>
 
                                     <div id="home" class="anyClass container tab-pane active"><br>
@@ -58,7 +82,7 @@
                                                 </div>
                                                 <div class="col">
                                                     <select class="form-control" id="truckgroupe">
-                                                        <option>All</option>
+                                                        <option>Allำ</option>
                                                         <option>KDR</option>
                                                     </select>
                                                 </div>
